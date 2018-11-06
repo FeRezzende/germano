@@ -1,0 +1,11 @@
+top | grep load >> /home/felipe/'Área de Trabalho'/load.txt
+top | grep Tarefas >> /home/felipe/'Área de Trabalho'/tarefas.txt
+top | grep mem >> /home/felipe/'Área de Trabalho'/mem.txt
+top | grep cpu >> /home/felipe/'Área de Trabalho'/cpu.txt
+
+cp -rf * /home/felipe/Documentos/Backup
+
+rm -r /home/felipe/'Área de Trabalho'/load.txt
+rm -r /home/felipe/'Área de Trabalho'/tarefas.txt
+rm -r /home/felipe/'Área de Trabalho'/mem.txt
+rm -r /home/felipe/'Área de Trabalho'/cpu.txt
